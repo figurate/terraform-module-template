@@ -1,2 +1,20 @@
-# terraform-module-template
-A template repository for public Terraform modules
+# Terraform Module Template
+
+![Terraform Module Template](terraform\_module\_template.png)
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+No provider.
+
+## Inputs
+
+No input.
+
+## Outputs
+
+No output.
+
