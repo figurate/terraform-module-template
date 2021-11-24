@@ -2,7 +2,7 @@ SHELL:=/bin/bash
 AWS_DEFAULT_REGION?=ap-southeast-2
 
 ifneq (, $(shell which docker))
-TERRAFORM_VERSION=0.15.2
+TERRAFORM_VERSION=1.0.11
 TERRAFORM=docker run --rm -v "${PWD}:/work" -e AWS_DEFAULT_REGION=$(AWS_DEFAULT_REGION) -e http_proxy=$(http_proxy) --net=host -w /work hashicorp/terraform:$(TERRAFORM_VERSION)
 else
 TERRAFORM=terraform
