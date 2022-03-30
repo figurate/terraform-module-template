@@ -1,7 +1,8 @@
 /**
  * # Terraform Module Template
  *
- * ![Terraform Module Template](terraform_module_template.png)
+ * [![CI](https://github.com/figurate/terraform-module-template/actions/workflows/main.yml/badge.svg)](https://github.com/figurate/terraform-module-template/actions/workflows/main.yml)
  *
- * ![main workflow](https://github.com/figurate/terraform-module-template/actions/workflows/main.yml/badge.svg)
+ *
+ * ![Terraform Module Template](terraform_module_template.png)
  */
