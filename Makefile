@@ -4,7 +4,7 @@ include .env
 EXAMPLE=$(wordlist 2, $(words $(MAKECMDGOALS)), $(MAKECMDGOALS))
 VERSION=$(wordlist 2, $(words $(MAKECMDGOALS)), $(MAKECMDGOALS))
 
-.PHONY: all clean validate test docs format
+.PHONY: all clean validate test diagram docs format release
 
 all: test docs format
 
