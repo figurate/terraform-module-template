@@ -25,8 +25,7 @@ docs: diagram
 	$(TERRAFORM_DOCS) markdown ./ >./README.md
 
 format:
-	$(TERRAFORM) fmt -list=true ./ && \
-		$(TERRAFORM) fmt -list=true ./examples/default
+	$(TERRAFORM) fmt -list=true ./
 
 example:
 	$(TERRAFORM) -chdir=examples/$(EXAMPLE) init -upgrade && $(TERRAFORM) -chdir=examples/$(EXAMPLE) plan -input=false
